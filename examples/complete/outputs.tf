@@ -74,6 +74,21 @@ output "ec2_complete_iam_instance_profile_unique" {
   value       = module.ec2_complete.iam_instance_profile_unique
 }
 
+output "ec2_complete_root_block_device" {
+  description = "Root block device information"
+  value       = module.ec2_complete.root_block_device
+}
+
+output "ec2_complete_ebs_block_device" {
+  description = "EBS block device information"
+  value       = module.ec2_complete.ebs_block_device
+}
+
+output "ec2_complete_ephemeral_block_device" {
+  description = "Ephemeral block device information"
+  value       = module.ec2_complete.ephemeral_block_device
+}
+
 # EC2 T2 Unlimited
 output "ec2_t2_unlimited_id" {
   description = "The ID of the instance"
@@ -164,6 +179,12 @@ output "ec2_t3_unlimited_public_ip" {
 output "ec2_t3_unlimited_tags_all" {
   description = "A map of tags assigned to the resource, including those inherited from the provider default_tags configuration block"
   value       = module.ec2_t3_unlimited.tags_all
+}
+
+# EC2 with ignore AMI changes
+output "ec2_ignore_ami_changes_ami" {
+  description = "The AMI of the instance (ignore_ami_changes = true)"
+  value       = module.ec2_ignore_ami_changes.ami
 }
 
 # EC2 Multiple

@@ -2,6 +2,59 @@
 
 All notable changes to this project will be documented in this file.
 
+### [5.2.1](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v5.2.0...v5.2.1) (2023-07-06)
+
+
+### Bug Fixes
+
+* Fixed outputs for Block Devices ([#344](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/344)) ([80381d2](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/80381d2c94e6aec7aa308f4a6cf24732a87c8237))
+
+## [5.2.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v5.1.0...v5.2.0) (2023-06-28)
+
+
+### Features
+
+* Add input variable 'instance_tags' ([#343](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/343)) ([025d3b4](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/025d3b4beca9835a5e997e41677a4c6441a733f4))
+
+## [5.1.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v5.0.0...v5.1.0) (2023-05-30)
+
+
+### Features
+
+* Implementation of the cpu_options block and addition of support for AMD SEV-SNP ([#334](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/334)) ([6a123ad](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/6a123adb10393759fcdd18795fbf1484c5f44dde))
+
+## [5.0.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v4.5.0...v5.0.0) (2023-04-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* Raise minimum required Terraform version to 1.0+ (#331)
+
+### Features
+
+* Raise minimum required Terraform version to 1.0+ ([#331](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/331)) ([9d4e0ca](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/9d4e0ca389535522808ddf988e3a6510bb143161))
+
+## [4.5.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v4.4.0...v4.5.0) (2023-04-21)
+
+
+### Features
+
+* Add unique tags to EBS block devices ([#327](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/327)) ([55ed759](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/55ed759b9fbc475629da2d5068a593a2ce08d8dc))
+
+## [4.4.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v4.3.1...v4.4.0) (2023-04-21)
+
+
+### Features
+
+* Addition of block device information in outputs ([#319](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/319)) ([884e244](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/884e24466e19144e6b5a1085ab81b377174c6e0c))
+
+### [4.3.1](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v4.3.0...v4.3.1) (2023-04-21)
+
+
+### Bug Fixes
+
+* Marked AMI id as nonsensitive ([#321](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/issues/321)) ([1ae1d5c](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/commit/1ae1d5ce73d6bef0e42821406f82ff16fe718177))
+
 ## [4.3.0](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/compare/v4.2.1...v4.3.0) (2023-01-01)
 
 
